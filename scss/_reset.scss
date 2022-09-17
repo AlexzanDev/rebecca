@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+// stylelint-disable font-family-name-quotes, max-line-length, property-no-vendor-prefix
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 18px;
+	line-height: 1.15;
+	color: $color__black;
+	-webkit-text-size-adjust: 100%;
+}
+// stylelint-enable font-family-name-quotes, max-line-length, property-no-vendor-prefix

@@ -1,0 +1,17 @@
+{
+	"extends": "stylelint-config-standard",
+	"rules": {
+		"indentation": "tab",
+		"max-empty-lines": 3,
+    "string-quotes": "double",
+    "function-url-quotes": "always",
+    "font-family-name-quotes": "always-unless-keyword",
+    "max-nesting-depth": 2,
+		"color-named": "never",
+		"function-name-case": "lower",
+		"value-keyword-case": "lower",
+		"color-hex-case": "lower",
+		"color-hex-length": "long"
+	},
+	"customSyntax": "postcss-scss"
+}

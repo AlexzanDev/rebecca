@@ -1,0 +1,70 @@
+/* Displays and positions */
+.flex {
+	display: flex;
+}
+
+.inline {
+	display: inline;
+}
+
+.inl-bk {
+	display: inline-block;
+}
+
+.inl-fx {
+	display: inline-flex;
+}
+
+.grid {
+	display: grid;
+}
+
+.none {
+	display: none;
+}
+
+.table {
+	display: table;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.relative {
+	position: relative;
+}
+
+/* Flex */
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-nowrap {
+	flex-wrap: nowrap;
+}
+
+.jst-btwn {
+	justify-content: space-between;
+}
+
+.jst-arnd {
+	justify-content: space-around;
+}
+
+/* Grid */
+.grid-auto {
+	grid-template-columns: auto auto auto;
+}
