@@ -4,11 +4,13 @@
 	box-sizing: border-box;
 }
 
+// stylelint-disable at-rule-no-unknown
 :root {
 	@each $color, $value in $colors {
 		--rb-#{$color}: #{$value};
 	}
 }
+// stylelint-enable at-rule-no-unknown
 
 // stylelint-disable font-family-name-quotes, max-line-length, property-no-vendor-prefix
 body {

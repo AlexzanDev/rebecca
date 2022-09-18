@@ -1,3 +1,4 @@
+// stylelint-disable annotation-no-unknown
 // Colors variables
 $color__red: #ff0000 !default;
 $color__black: #000000 !default;
@@ -40,3 +41,4 @@ $colors: (
 	"violet": $color__violet,
 	"silver": $color__silver
 ) !default;
+// stylelint-enable annotation-no-unknown

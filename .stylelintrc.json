@@ -11,7 +11,8 @@
 		"function-name-case": "lower",
 		"value-keyword-case": "lower",
 		"color-hex-case": "lower",
-		"color-hex-length": "long"
+		"color-hex-length": "long",
+		"number-max-precision": 6
 	},
 	"customSyntax": "postcss-scss"
 }
