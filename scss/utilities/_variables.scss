@@ -1,3 +1,42 @@
 // Colors variables
-$color__red: #ff0000;
-$color__black: #000000;
+$color__red: #ff0000 !default;
+$color__black: #000000 !default;
+$color__white: #ffffff !default;
+$color__yellow: #ffff00 !default;
+$color__purple: #800080 !default;
+$color__gray: #808080 !default;
+$color__fuchsia: #ff00ff !default;
+$color__green: #008000 !default;
+$color__lime: #00ff00 !default;
+$color__blue: #0000ff !default;
+$color__aqua: #00ffff !default;
+$color__brown: #a52a2a !default;
+$color__cyan: #00ffff !default;
+$color__gold: #ffd700 !default;
+$color__indigo: #4b0082 !default;
+$color__orange: #ffa500 !default;
+$color__pink: #ffc0cb !default;
+$color__violet: #ee82ee !default;
+$color__silver: #c0c0c0 !default;
+
+$colors: (
+	"red": $color__red,
+	"black": $color__black,
+	"white": $color__white,
+	"yellow": $color__yellow,
+	"purple": $color__purple,
+	"gray": $color__gray,
+	"fuchsia": $color__fuchsia,
+	"green": $color__green,
+	"lime": $color__lime,
+	"blue": $color__blue,
+	"aqua": $color__aqua,
+	"brown": $color__brown,
+	"cyan": $color__cyan,
+	"gold": $color__gold,
+	"indigo": $color__indigo,
+	"orange": $color__orange,
+	"pink": $color__pink,
+	"violet": $color__violet,
+	"silver": $color__silver
+) !default;

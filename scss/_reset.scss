@@ -4,6 +4,12 @@
 	box-sizing: border-box;
 }
 
+:root {
+	@each $color, $value in $colors {
+		--rb-#{$color}: #{$value};
+	}
+}
+
 // stylelint-disable font-family-name-quotes, max-line-length, property-no-vendor-prefix
 body {
 	margin: 0;
