@@ -40,6 +40,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+/* Typography */
 h1 {
   margin: 0;
   font-size: 40px;
@@ -72,6 +73,62 @@ h6 {
 
 p {
   margin: 0;
+}
+
+.txt-light {
+  font-size: 300;
+}
+
+.txt-bold {
+  font-weight: 600;
+}
+
+.txt-extra-bold {
+  font-weight: 800;
+}
+
+.txt-italic {
+  font-style: italic;
+}
+
+.txt-5 {
+  font-size: 5px;
+}
+
+.txt-10 {
+  font-size: 10px;
+}
+
+.txt-15 {
+  font-size: 15px;
+}
+
+.txt-20 {
+  font-size: 20px;
+}
+
+.txt-25 {
+  font-size: 25px;
+}
+
+.txt-30 {
+  font-size: 30px;
+}
+
+.txt-35 {
+  font-size: 35px;
+}
+
+.txt-40 {
+  font-size: 40px;
+}
+
+.txt-45 {
+  font-size: 45px;
+}
+
+.txt-50 {
+  font-size: 50px;
 }
 
 /* Containers rules */
@@ -138,6 +195,27 @@ p {
   align-items: center;
   position: relative;
   height: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td,
+th {
+  border: 1px solid #d8d8d8;
+  border-spacing: 0;
+  text-align: left;
+  padding: 8px;
 }
 
 /* Displays and positions */
