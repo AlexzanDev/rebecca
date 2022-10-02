@@ -131,6 +131,22 @@ p {
   font-size: 50px;
 }
 
+.txt-uppercase {
+  text-transform: uppercase;
+}
+
+.txt-lowercase {
+  text-transform: lowercase;
+}
+
+.txt-no-dec {
+  text-decoration: none;
+}
+
+.txt-underline {
+  text-decoration: underline;
+}
+
 /* Containers rules */
 .container,
 .container-sm,
@@ -185,7 +201,7 @@ p {
 .header {
   position: relative;
   height: 60px;
-  background: #dedede;
+  background: #2e2e2e;
   z-index: 9999;
 }
 
@@ -197,6 +213,51 @@ p {
   height: 100%;
 }
 
+.navigation-menu {
+  display: block;
+  position: absolute;
+  z-index: 999;
+  top: 60px;
+  width: 100%;
+  background: #323232;
+}
+
+.main-menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.main-menu li {
+  border-top: 1px solid #606060;
+}
+.main-menu li:first-of-type {
+  border: none;
+}
+.main-menu li a {
+  color: #ffffff;
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  .navigation-menu {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    background: #2e2e2e;
+    width: auto;
+  }
+  .main-menu {
+    display: flex;
+    align-items: center;
+  }
+  .main-menu li {
+    border: none;
+  }
+  .main-menu li a {
+    color: #ffffff;
+    display: block;
+  }
+}
 table {
   width: 100%;
   border-collapse: collapse;
@@ -639,6 +700,27 @@ th {
   margin-right: auto;
 }
 
+.mgn-y-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mgn-l-auto {
+  margin-left: auto;
+}
+
+.mgn-r-auto {
+  margin-right: auto;
+}
+
+.mgn-t-auto {
+  margin-top: auto;
+}
+
+.mgn-b-auto {
+  margin-bottom: auto;
+}
+
 .pdng-0 {
   padding: 0;
 }
@@ -792,6 +874,27 @@ th {
 .pdng-auto {
   padding-left: auto;
   padding-right: auto;
+}
+
+.pdng-y-auto {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.pdng-l-auto {
+  padding-left: auto;
+}
+
+.pdng-r-auto {
+  padding-right: auto;
+}
+
+.pdng-t-auto {
+  padding-top: auto;
+}
+
+.pdng-b-auto {
+  padding-bottom: auto;
 }
 
 /*# sourceMappingURL=rebecca.css.map */
